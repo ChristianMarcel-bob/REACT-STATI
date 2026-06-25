@@ -1,0 +1,22 @@
+.Login-conteiner {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+
+    border: 1px solid blue;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.Login-conteiner input{
+    padding: 10px;                                      
+}
+
+.Login-conteiner h2{
+    color: black;
+}
