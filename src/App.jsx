@@ -1,6 +1,9 @@
 import Header from "./components/Header";
 import Login from "./components/login";
 import CardProd from "./components/Cardprod"; 
+import Contador from "./components/Contador";
+import Calculadora from "./components/Calculadora";
+import "./App.css";
 
 function App (){
   return (
@@ -18,6 +21,13 @@ preco="17,90"/>
 preco="6,00"/>
 <CardProd nome="João"
 cargo="Atendente"/>
+
+<Contador />
+
+<Calculadora />
+
+
+
     </>
 
   )
